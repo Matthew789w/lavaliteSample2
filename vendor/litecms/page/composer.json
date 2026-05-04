@@ -1,0 +1,32 @@
+{
+    "name": "litecms/page",
+    "description": "Page package for litecms.",
+    "keywords": ["lavalite", "Page"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lavalite",
+            "email": "info@lavalite.org"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Litecms\\Page\\": "src",
+            "Litecms\\Page\\Seeders\\": "database/seeders"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Litecms\\Page\\Providers\\PageServiceProvider"
+            ],
+            "aliases": {
+                "Page"       : "Litecms\\Page\\Facades\\Page"
+            }
+        }
+    },
+    "minimum-stability": "dev"
+}

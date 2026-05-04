@@ -1,0 +1,25 @@
+{
+    "name": "litepie/filer",
+    "description": "The Litepie Filer package.",
+    "homepage": "https://github.com/litepie/Filer",
+    "keywords": [
+        "lavalite",
+        "filer"
+    ],
+    "authors": [
+        {
+            "name": "Renfos Technologies Pvt. Ltd.",
+            "email": "info@renfos.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1|^8.2",
+        "intervention/imagecache": "~2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Litepie\\Filer\\": ""
+        }
+    },
+    "license": "MIT"
+}

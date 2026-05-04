@@ -1,0 +1,25 @@
+{
+    "name": "litepie/install",
+    "description": "The Litepie Install package.",
+    "homepage": "https://github.com/litepie/Install",
+    "keywords": [
+        "lavalite",
+        "litepie",
+        "install"
+    ],
+    "authors": [
+        {
+            "name": "Renfos Technologies Pvt. Ltd.",
+            "email": "info@renfos.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1|^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Litepie\\Install\\": ""
+        }
+    },
+    "license": "MIT"
+}

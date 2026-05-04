@@ -1,0 +1,27 @@
+{
+    "name": "litepie/repository",
+    "description": "The Litepie Repository package.",
+    "homepage": "https://github.com/litepie/Repository",
+    "keywords": [
+        "lavalite",
+        "litepie",
+        "repository"
+    ],
+    "authors": [
+        {
+            "name": "Renfos Technologies Pvt. Ltd.",
+            "email": "info@renfos.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1|^8.2",
+        "league/fractal": "^0.20"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Litepie\\Repository\\": ""
+        }
+    },
+    "license": "MIT"
+}
